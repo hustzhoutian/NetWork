@@ -45,8 +45,8 @@ def DegreeTopN(G1,G2,n):
 def BetweennessTopN(G1,G2,n):
     list1 = sorted(nx.betweenness_centrality(G1).items(), key=lambda d:d[1],reverse=True)
     list2 = sorted(nx.betweenness_centrality(G2).items(), key=lambda d:d[1],reverse=True)
-    print list1
-    print list2
+    #print list1
+    #print list2
     toplist1 = []
     toplist2 = []
     index1 = 0
